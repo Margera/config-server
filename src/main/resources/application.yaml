@@ -8,10 +8,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/MichelliBrito/ead-config-server-repo
+          uri: https://github.com/Margera/ead-config-server-repo
           default-label: main
-          username: michelli
-          password: ****************
+         # username: michelli  -> gerar token no github (https://github.com/settings/apps)
+         # password: ****************
 
 ead:
   configServer:
